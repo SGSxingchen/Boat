@@ -1,9 +1,5 @@
 package com.space.boat;
 
-import com.comphenix.protocol.PacketType;
-import com.comphenix.protocol.ProtocolLibrary;
-import com.comphenix.protocol.ProtocolManager;
-import com.comphenix.protocol.events.PacketEvent;
 import com.space.boat.tools.ConfigManager;
 import com.space.boat.tools.IBuilder;
 import com.space.boat.tools.IString;
@@ -30,7 +26,6 @@ import java.util.*;
 public final class Boat extends JavaPlugin {
     public static Plugin plugin;
 
-    ProtocolManager pm = ProtocolLibrary.getProtocolManager();
 
     public static Map<String,String> data = new HashMap<>(); //存储玩家数据的Data
     public static Map<String,Integer> time = new HashMap<>(); //存储玩家数据的Data
