@@ -1,0 +1,12 @@
+name: Boat
+version: '${project.version}'
+main: com.space.boat.Boat
+api-version: 1.18
+authors: [ LanStarD ]
+description: A simple plugins
+depend: [ProtocolLib]
+commands:
+  yboat:
+    description: All command for server
+    permission: yboat.all
+    usage: /yboat help

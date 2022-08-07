@@ -1,0 +1,17 @@
+package com.space.boat.tools;
+
+public class RandomInt {
+    public Integer dtoi(Double Num) {
+        String s1 = Num.toString();
+        String s2[] = s1.split("\\.");
+        Integer i = Integer.parseInt(s2[0]);
+        return i;
+
+    }
+
+    public Integer RandomInt(Integer Min, Integer Max) {
+        Integer num = Max + 1 - Min;
+        Integer i = dtoi(Math.random() * num + Min);
+        return i;
+    }
+}
