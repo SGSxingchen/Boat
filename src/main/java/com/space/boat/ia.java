@@ -5,7 +5,9 @@
 
 package com.space.boat;
 
-public class Packet {
-    public Packet() {
+import org.bukkit.event.Listener;
+
+public class ia implements Listener {
+    public ia() {
     }
 }
