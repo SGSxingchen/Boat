@@ -1,0 +1,35 @@
+List:
+  - "1"
+1:
+  name: "Test"
+  recipe:
+    - "abcd"
+    - "abcd"
+    - "abcd"
+    - "abcd"
+  ingredient:
+    a: "STONE"
+    b: "GOLD_INGOT"
+    c: "DIRT"
+    d: "AIR"
+  recipe2:
+    - "abcd"
+    - "abcd"
+    - "abcd"
+    - "abcd"
+  ingredient2:
+    a: "STONE"
+    b: "GOLD_INGOT"
+    c: "DIRT"
+    d: "AIR"
+  recipe_message:
+    - "&b需求材料：铁锭x1"
+  result:
+    command:
+      - "/say 111"
+    item:
+      material: "IRON_SWORD"
+      name: "&c测试用铁剑"
+      lore:
+        - "1111"
+        - "2222"

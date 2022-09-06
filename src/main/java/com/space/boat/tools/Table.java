@@ -8,8 +8,8 @@ package com.space.boat.tools;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 
-public class UC implements InventoryHolder {
-    public UC() {
+public class Table implements InventoryHolder {
+    public Table() {
     }
 
     public Inventory getInventory() {
